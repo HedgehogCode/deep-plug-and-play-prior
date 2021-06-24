@@ -1,0 +1,6 @@
+tensorflow-addons==0.12.0
+tensorflow-probability==0.12.2
+git+https://github.com/HedgehogCode/tensorflow-datasets-bw.git@0.7.0
+seaborn==0.11.1
+scikit-image==0.17.2
+image-similarity-measures==0.3.5
