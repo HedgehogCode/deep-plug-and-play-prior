@@ -19,6 +19,7 @@ RUN apt-get -y install --no-install-recommends libgl1-mesa-glx
 
 # Runtime dependencies
 COPY ./requirements/requirements_docker.txt /root/requirements_docker.txt
+RUN pip install Cython
 RUN pip install -r /root/requirements_docker.txt
 
 # Develop dependencies
